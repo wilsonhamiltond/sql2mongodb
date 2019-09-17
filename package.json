@@ -1,0 +1,25 @@
+{
+  "name": "sql2mongodb",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "ng build --prod",
+    "watch": "tsc --p .\\tsconfig.json --watch"
+  },
+  "private": true,
+  "dependencies": {
+    "mongod": "^2.0.0",
+    "mongodb": "^3.2.7",
+    "mssql": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.1.28",
+    "@types/mssql": "^4.0.15",
+    "@types/node": "~8.9.4",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.12.1",
+    "typescript": "~2.7.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}

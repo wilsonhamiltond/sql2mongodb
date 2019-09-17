@@ -1,0 +1,22 @@
+{
+    "max_record": 5000,
+    "mongo_config":{
+        "host": "127.0.0.1",
+        "port": "27017",
+        "dbName": "padron"
+    },
+    "sql_config":{
+        "user": "sa",
+        "password": "a@123456",
+        "server": "FRESA\\SQLEXPRESS",
+        "database": "Padron",
+        "connectionTimeout": 60000,
+        "requestTimeout": 60000,
+        "parseJSON": true, 
+        "pool": {
+            "min": 0,
+            "max":50,
+            "idleTimeoutMillis":60000
+        }
+    }
+}
